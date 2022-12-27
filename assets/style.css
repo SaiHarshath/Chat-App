@@ -1,0 +1,37 @@
+@media screen and (min-width:360px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+    max-width: 360px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/public/wallpaper.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+ul.chat-listing {
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 5px 8px;
+    position: relative;
+}
+
+.message-container {
+    margin-top: auto;
+}
+
+.my-message {
+    text-align: right;
+}
